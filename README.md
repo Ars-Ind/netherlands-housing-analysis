@@ -46,6 +46,7 @@ The dataset contains Dutch rental housing listings with information such as:
 ## Key Features
 
 ### Data Cleaning
+
 - Removed unnecessary columns
 - Converted rent values to numeric format
 - Cleaned apartment size data
@@ -56,6 +57,24 @@ Created a custom metric:
 
 ```python
 Price_per_m2 = Rent / Meters
+```
+
+### Analysis Performed
+
+- Average rent by city
+- Price per square meter analysis
+- City filtering based on listing count
+- Top 10 expensive cities visualization
+
+---
+
+## Example Insights
+
+- Amsterdam remains one of the most expensive housing markets in the Netherlands.
+- Tilburg showed the highest average price per square meter in the filtered dataset.
+- Some cities with high average rent become less expensive when normalized by apartment size.
+
+---
 
 ## Charts
 
@@ -68,3 +87,9 @@ Price_per_m2 = Rent / Meters
 ### Price per Square Meter by City
 
 ![Price per m2 Chart](price_per_m2_chart.png)
+
+---
+
+## Author
+
+Arsen Indzheian
