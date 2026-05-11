@@ -104,3 +104,19 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 
 plt.show()
+
+# scatter plot: Rent vs Apartment Size
+
+plt.figure(figsize=(10,6))
+
+plt.scatter(filtered_df["Meters"], filtered_df["Rent"])
+
+plt.title("Relationship Between Apartment Size and Rent")
+
+plt.xlabel("Apartment Size (m²)")
+
+plt.ylabel("Rent (€)")
+
+plt.tight_layout()
+
+plt.show()
