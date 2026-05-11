@@ -56,3 +56,15 @@ Created a custom metric:
 
 ```python
 Price_per_m2 = Rent / Meters
+
+## Charts
+
+### Average Rent by City
+
+![Average Rent Chart](average_rent_chart.png)
+
+---
+
+### Price per Square Meter by City
+
+![Price per m2 Chart](price_per_m2_chart.png)
